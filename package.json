@@ -1,0 +1,35 @@
+{
+  "name": "@jamsesso/use-async",
+  "version": "1.0.0",
+  "description": "useAsync is a React hook that makes using async functions in your components easier",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamsesso/use-async.git"
+  },
+  "keywords": [
+    "react",
+    "async",
+    "hook",
+    "useasync",
+    "hooks",
+    "useeffect",
+    "usequery"
+  ],
+  "author": "Sam Jesso",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamsesso/use-async/issues"
+  },
+  "homepage": "https://github.com/jamsesso/use-async#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "react": "^17.0.2",
+    "react-test-renderer": "^17.0.2"
+  }
+}
