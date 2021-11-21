@@ -1,7 +1,14 @@
 "use strict";
 const React = require('react');
 
-function useAsync(f) {
+function useAsync(f, options) {
+  if (typeof options !== 'object') {
+    options = {
+      initialState: {
+        loading: true
+      }
+    };
+  }
   var reducer = React.useReducer(function (prevState, action) {
     switch (action.type) {
       case 'LOADING':
@@ -14,7 +21,7 @@ function useAsync(f) {
         return prevState;
     }
   }, {
-    loading: true,
+    loading: options.initialState.loading,
     error: null,
     result: null
   });
