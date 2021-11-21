@@ -1,6 +1,6 @@
 {
   "name": "@jamsesso/use-async",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "useAsync is a React hook that makes using async functions in your components easier",
   "main": "index.js",
   "scripts": {
